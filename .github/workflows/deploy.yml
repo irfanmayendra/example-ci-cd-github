@@ -35,6 +35,7 @@ jobs:
             frontend/dist/
             captain-definition
           outPath: deploy.tar
+  #jembut
   
       - name: Deploy App to Caprover
         uses: caprover/deploy-from-github@v1.0.1
